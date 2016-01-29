@@ -58,7 +58,7 @@ var static_words7 = "enough? Yeah, coming from the establishment. Sarah ";
 var button = document.getElementById("submit");
 
 //then we add the ability to have a mouse click fire off a function when clicked on
-document.addEventListener("click", onClick, false);
+button.addEventListener("click", onClick, false);
 
 function onClick(evt)
 {
